@@ -175,6 +175,20 @@ verifyTable
     [Arguments]    ${element}    ${value}
     Element Should Contain    ${element}    ${value}
 
+assertComfirmation
+    [Arguments]    ${text}
+    Page Should Contain    ${text}
+
+chooseOkOnNextConfirmation
+    Choose Ok On Next Confirmation
+
+chooseCancelOnNextConfirmation
+    Choose Cancel On Next Confirmation
+
+assertAlert
+    [Arguments]    ${text}
+    Alert Should Be Present    ${text}
+
 assertText
     [Arguments]    ${element}    ${value}
     Element Should Contain    ${element}    ${value}
