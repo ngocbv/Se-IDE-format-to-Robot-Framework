@@ -2,7 +2,7 @@
 This program use to convert file in Selenium IDE format (html) to Robot Framework format. This program is written on Python 2.7
 
 
-Instruction:
+<h2>Instruction:</h2>
 
 1. Record test cases in Selenium IDE and save them in html format.
 
